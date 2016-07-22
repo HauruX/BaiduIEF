@@ -1,0 +1,43 @@
+.container {
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+    overflow: auto;
+}
+
+.team-headsculpture {
+    width: 80px;
+    float: left;
+}
+
+.left {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #999;
+    float: left;
+    overflow: auto;
+}
+
+#teamDes {
+    margin-left: 120px;
+}
+
+.right {
+    width: 80px;
+    padding: 20px;
+    padding-bottom: 0px;
+    border: 1px solid #999;
+    float: right;
+}
+
+.person-headsculpture {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.center {
+    margin-left: 270px;
+    margin-right: 162px;
+    padding: 20px;
+    border: 1px solid #999;
+}
