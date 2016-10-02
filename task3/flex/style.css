@@ -1,0 +1,75 @@
+/*伪元素清楚浮动*/
+
+.clear-float:before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clear-float:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/*主容器 flex布局*/
+
+.container {
+    margin: 10px;
+    padding: 20px;
+    min-height: 340px;
+    background-color: #eee;
+    border: 1px solid #999;
+    display: flex;
+}
+
+
+/*左侧 start*/
+
+.left {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+.team-headsculpture {
+    width: 80px;
+    float: left;
+}
+
+#teamDes {
+    margin-left: 120px;
+}
+
+
+/*左侧 end*/
+
+
+/*右侧 start*/
+
+.right {
+    width: 80px;
+    padding: 20px;
+    padding-bottom: 0px;
+    border: 1px solid #999;
+}
+
+.person-headsculpture {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+
+/*右侧 end*/
+
+
+/*中间主内容*/
+
+.center {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #999;
+}
