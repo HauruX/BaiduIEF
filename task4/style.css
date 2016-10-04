@@ -1,0 +1,32 @@
+.container {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ccc;
+    /*隐藏超出边界的部分*/
+    overflow: hidden;
+}
+
+.lt-yellow,
+.rb-yellow {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fc0;
+}
+
+.lt-yellow {
+    /*top: -50%;
+    left: -50%;*/
+    top: -50px;
+    left: -50px;
+}
+
+.rb-yellow {
+    bottom: -50px;
+    right: -50px;
+}
