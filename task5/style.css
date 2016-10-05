@@ -1,0 +1,300 @@
+/*清除浏览器样式*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6,*/
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    /*font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;*/
+}
+
+.clearfix:before {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    background-color: #eee;
+    font-family: "RobotoDraft", "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 400;
+}
+
+
+/*导航栏*/
+
+header {
+    height: 70px;
+    padding: 10px 35px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px #999;
+}
+
+#nav_heading {
+    display: inline;
+}
+
+#nav_logo {
+    height: 50px;
+}
+
+.nav-list {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+/*容器 主内容+侧边栏*/
+
+.container {
+    margin: 20px 30px;
+}
+
+
+/*主要文章内容部分*/
+
+.article-content {
+    margin-right: 420px;
+    overflow: hidden;
+}
+
+article {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #999;
+    padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.article-title2 {
+    color: #878586;
+}
+
+.article-author {
+    color: #878586;
+}
+
+.chrome-os-img-big {
+    height: 250px;
+}
+
+.chrome-os-img-small {
+    height: 150px;
+}
+
+.article-ul {
+    list-style-type: none
+}
+
+
+/*图片序列 start*/
+
+.albem {
+    /*width: 225px;*/
+    display: table;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #aaa;
+    float: left;
+}
+
+.albem img {
+    width: 150px;
+    height: 100%;
+}
+
+.albem-text {
+    text-align: center;
+    margin-bottom: 10px;
+}
+/*图片序列 end*/
+
+.article-list{
+    margin-left: 30px;
+}
+/*table*/
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+table a {
+    text-decoration: none;
+}
+
+th,
+td {
+    border: 1px solid #999;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+.table-sum {
+    background-color: #ccc;
+}
+
+
+/*侧边栏 start*/
+
+aside {
+    width: 400px;
+    float: right;
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #999;
+}
+
+.sidebar-content {
+    margin-top: 10px;
+}
+
+.sidebar-row {
+    margin-top: 10px;
+}
+
+.sidebar-left {
+    display: inline-block;
+    width: 35%;
+    margin-right: 20px;
+    min-width: 100px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.sidebar-placeholder {
+    margin-left: 35%;
+    padding-left: 25px;
+    font-size: 15px;
+    color: #777;
+}
+
+.submit-button {
+    background-color: #3079ed;
+    color: white;
+    border: 1px solid #3079ed;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    font-size: 20px
+}
+
+
+/*侧边栏 end*/
+
+footer {
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    background-color: #ccc;
+}
